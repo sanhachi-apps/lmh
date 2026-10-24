@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>特定商取引法に基づく表記 | レザー面積測る君</title>
+  <meta name="description" content="レザー面積測る君（Leather Measurement Helper / LMH）の、特定商取引法に基づく表記です。">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <span aria-current="page">日本語</span> |
+      <a href="../en/legal.html" lang="en">English</a>
+    </div>
+
+    <header class="header">
+      <p>サンハチレザー / sanhachi leather</p>
+    </header>
+
+    <nav class="nav" aria-label="サイト内メニュー">
+      <a href="index.html">アプリ紹介</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+      <a href="disclaimer.html">免責事項</a>
+      <a href="legal.html" aria-current="page">特定商取引法に基づく表記</a>
+      <a href="support.html">サポート</a>
+    </nav>
+
+    <main class="card">
+      <h1>特定商取引法に基づく表記</h1>
+      <p>
+        「レザー面積測る君」
+        （英語名：Leather Measurement Helper、略称：LMH。以下「本アプリ」といいます）の
+        アプリ内課金「Pro」について、特定商取引法に基づく表記を掲載します。
+      </p>
+
+      <h2>販売事業者</h2>
+      <p>サンハチレザー（sanhachi leather）</p>
+
+      <h2>運営責任者</h2>
+      <p>
+        請求があった場合、遅滞なく開示します。
+        下記のメールアドレスへご連絡ください。
+      </p>
+
+      <h2>所在地・電話番号</h2>
+      <p>
+        請求があった場合、遅滞なく開示します。
+        下記のメールアドレスへご連絡ください。
+        お問い合わせは、メールで受け付けています。
+      </p>
+
+      <h2>連絡先</h2>
+      <p>
+        メール：<a href="mailto:sanhachiapps@gmail.com">sanhachiapps@gmail.com</a><br>
+        個人で対応しているため、返信までお時間をいただく場合があります。
+      </p>
+
+      <h2>販売するもの</h2>
+      <p>
+        本アプリのアプリ内課金「Pro」（買い切り）です。
+        購入すると、次の機能が使えます。
+      </p>
+      <ul>
+        <li>革範囲の自動選択</li>
+        <li>CSV書き出し</li>
+        <li>ラピッド、S・ラピッド</li>
+        <li>50件までの測定記録の保存</li>
+      </ul>
+      <p>
+        ラピッド、S・ラピッドで表示される面積は、通常モードより、撮るたびの数字のブレが大きくなります。
+        特にS・ラピッドの撮影前の表示は、ブレが大きくなります。
+        いずれも参考値であり、精度を保証するものではありません。
+        詳しくは<a href="disclaimer.html">免責事項</a>をご確認ください。
+      </p>
+
+      <h2>販売価格</h2>
+      <p>
+        アプリ内の購入画面に表示します。
+        表示される金額は、消費税を含む場合があります。
+        購入前に、購入画面の表示をご確認ください。
+      </p>
+
+      <h2>商品代金以外の必要料金</h2>
+      <p>
+        ありません。ただし、アプリストアからの購入や復元に必要な通信料は、利用者のご負担です。
+      </p>
+
+      <h2>支払い方法</h2>
+      <p>
+        利用するアプリストア（iPhone版ではApple）が提供する支払い方法です。
+        開発者が、カード番号などの支払い情報を受け取ることはありません。
+      </p>
+
+      <h2>支払い時期</h2>
+      <p>
+        購入の手続き時に、アプリストアの規約に従って請求されます。
+      </p>
+
+      <h2>提供時期</h2>
+      <p>
+        購入の手続きが完了したあと、すぐに利用できます。
+      </p>
+
+      <h2>返品・キャンセル</h2>
+      <p>
+        デジタルコンテンツの性質上、購入後の返品やキャンセルは、開発者側では受け付けていません。
+        返金の可否や手続きは、購入したアプリストアの規約と案内に従います。
+        購入した機能が正しく動かないなどの場合は、上記のメールアドレスへご連絡ください。
+      </p>
+
+      <h2>購入の復元</h2>
+      <p>
+        同じアカウントで再インストールした場合や、機種を変更した場合は、
+        本アプリの設定画面または購入画面にある「購入を復元」から、購入済みのProを復元できます。
+      </p>
+
+      <h2>動作環境</h2>
+      <p>
+        iPhone（iOS 【最低バージョン】以降）です。
+        ラピッド、S・ラピッドを含むカメラ機能は、端末のカメラの許可が必要です。
+      </p>
+
+      <p class="meta">
+        制定日：2026年10月24日<br>
+        最終更新日：2026年10月24日
+      </p>
+
+      <p class="notice">
+        本文は、法律の専門家ではない個人開発者が、一般的な情報を参考に作成したものです。
+        法的助言ではありません。
+      </p>
+    </main>
+
+    <footer class="footer">
+      <p><small>&copy; sanhachi leather</small></p>
+    </footer>
+  </div>
+</body>
+</html>
