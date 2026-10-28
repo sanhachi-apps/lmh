@@ -33,26 +33,31 @@
         <span lang="ja">レザー面積測る君</span>, referred to as “the App”),
         independently developed by sanhachi leather
         (<span lang="ja">サンハチレザー</span>, referred to as “the Developer”).
+        This policy applies to both the iPhone and Android versions.
+        Where their practices differ, the relevant version is identified.
       </p>
 
       <h2>1. General Policy</h2>
       <p>
-        The App does not send photos, measurement results, tilt
-        information, or similar measurement data to the Developer
-        or third parties. The Developer does not operate a server
-        that receives the App's measurement data.
+        The App does not send photos, camera footage, measurement results,
+        tilt information, or similar data it handles for measurement
+        to the Developer's servers.
+        The Developer does not operate a server that receives this data.
       </p>
       <p>
-        No account registration is required. The App does not use
-        SDKs for advertising, usage analytics, or crash reporting.
-        An SDK is an external software component added to an app;
-        crash reporting means reporting information about unexpected
-        app shutdowns.
+        No account registration is required.
+        The App does not use SDKs (external software components added to an app)
+        for advertising.
+        The iPhone version also does not use SDKs for usage analytics
+        or crash reporting (reports about unexpected app shutdowns).
       </p>
       <p>
-        Separate information about user-selected CSV sharing
-        destinations, device backups, app-store purchases,
-        support inquiries, and visits to this website is provided below.
+        For information about diagnostic data handled by Google ML Kit
+        in the Android version, please see
+        “7. Google ML Kit in the Android Version.”
+        Information about user-selected CSV sharing destinations,
+        device backups, app-store purchases, support inquiries,
+        and visits to this website is provided below.
       </p>
 
       <h2>2. Device Features and Their Purposes</h2>
@@ -122,23 +127,41 @@
         You can delete saved records within the App.
         Deleting the App from your device also deletes records
         stored in the App's dedicated storage area on that device.
+        However, this does not delete copies in the backups described below
+        or data you have exported elsewhere.
       </p>
       <p>
+        <strong>iPhone version:</strong><br>
         If you use a device backup feature, such as iCloud Backup,
         saved records may be included in the backup.
         A backup is a copy of device data stored in another location.
-      </p>
-      <p>
         Backup creation, storage, restoration, and deletion depend
         on your device and the settings of the service you use.
-        The Developer does not obtain or view the contents
-        of your backups.
+        The Developer does not obtain or view the contents of your backups.
+        Copies may remain in backups created before you delete records or the App.
       </p>
       <p>
-        Even if you delete records within the App or delete the App
-        itself, copies may remain in backups created before deletion
-        or in data you have exported. Please manage and delete
-        those copies at their respective storage destinations.
+        <strong>Android version:</strong><br>
+        The Android version is configured to disable Android Auto Backup.
+      </p>
+      <p>
+        <strong>Computer-based backups, migration tools, and similar methods:</strong><br>
+        Whether app settings and saved records are transferred
+        by backups made using a computer, data migration tools provided
+        by device manufacturers, or similar methods depends on the
+        specifications of the device and software.
+        They may not be transferred.
+        The Developer does not obtain or view the contents
+        of these backups or migration tools.
+      </p>
+      <p>
+        If you want to retain information from your saved records,
+        please use CSV export, which is included in Pro,
+        a one-time paid upgrade.
+        However, CSV export does not guarantee a complete backup
+        of your records, including photos, or restoration into the App.
+        Please manage and delete exported data and backup copies held
+        by the relevant services at their respective storage destinations.
       </p>
 
       <h2>5. CSV Export and Sharing</h2>
@@ -159,8 +182,8 @@
       <p>
         The App offers a one-time in-app purchase called Pro.
         Purchases and payments are processed by the app store
-        from which you obtained the App
-        (Apple for the iPhone version).
+        from which you obtained the App:
+        Apple for the iPhone version and Google Play for the Android version.
         The Developer does not receive payment details
         such as your card number.
       </p>
@@ -172,7 +195,35 @@
         or app distribution.
       </p>
 
-      <h2>7. Support Inquiries</h2>
+      <h2>7. Google ML Kit in the Android Version</h2>
+      <p>
+        In the Android version, Pro, a one-time paid upgrade,
+        includes automatic leather-region selection,
+        which uses Google's ML Kit
+        (a component for adding image recognition and similar features to apps).
+        ML Kit analyzes photos on your device,
+        and your photos and camera footage are not sent
+        to Google's servers for that analysis.
+      </p>
+      <p>
+        ML Kit may send information such as device information,
+        app information, an identifier for each installation,
+        performance statistics, and error codes to Google for diagnostics.
+        This information is separate from your photos and measurement results.
+        For the types of information sent, the conditions for sending it,
+        and encryption of the communication,
+        please refer to Google's published documentation:
+      </p>
+      <p>
+        <a href="https://developers.google.com/ml-kit/android-data-disclosure" target="_blank" rel="noopener noreferrer">https://developers.google.com/ml-kit/android-data-disclosure</a>
+      </p>
+      <p>
+        Automatic leather-region selection uses an internet connection,
+        for example the first time you use it,
+        to download data used for analysis (a model).
+      </p>
+
+      <h2>8. Support Inquiries</h2>
       <p>
         If you contact the Developer by email, the Developer receives
         the information included in your email, such as your email
@@ -206,7 +257,7 @@
         or discuss its handling, please use the contact address below.
       </p>
 
-      <h2>8. This Website</h2>
+      <h2>9. This Website</h2>
       <p>
         This website is hosted using GitHub Pages.
         No advertising or usage analytics tools have been added
@@ -217,7 +268,7 @@
         for details.
       </p>
 
-      <h2>9. Children</h2>
+      <h2>10. Children</h2>
       <p>
         The App is intended for a general audience
         and is not directed at children.
@@ -225,7 +276,7 @@
         children's personal information.
       </p>
 
-      <h2>10. Changes to This Policy</h2>
+      <h2>11. Changes to This Policy</h2>
       <p>
         This policy may be updated to reflect changes to the App,
         information-handling practices, or applicable laws.
@@ -233,7 +284,7 @@
         and the Last Updated date will be changed.
       </p>
 
-      <h2>11. Contact</h2>
+      <h2>12. Contact</h2>
       <p>
         Developer: sanhachi leather /
         <span lang="ja">サンハチレザー</span><br>
@@ -243,7 +294,7 @@
 
       <p class="meta">
         Established: October 18, 2026<br>
-        Last Updated: October 24, 2026
+        Last Updated: October 28, 2026
       </p>
 
       <p class="notice">
